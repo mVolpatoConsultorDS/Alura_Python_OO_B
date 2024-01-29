@@ -20,6 +20,8 @@ restaurante_praca = Restaurante('Praca', 'Gourmet')
 #restaurante_praca.categoria = 'Gourmet'
 restaurante_pizza = Restaurante('Pizza Express', 'Italiano')
 
+Restaurante.listar_restaurantes()
+
 #restanrantes = [restaurante_praca, restaurante_pizza]
 
 ##print(restanrantes)
@@ -31,5 +33,3 @@ restaurante_pizza = Restaurante('Pizza Express', 'Italiano')
 
 #print(restaurante_praca)
 #print(restaurante_pizza)
-
-Restaurante.listar_restaurantes()
